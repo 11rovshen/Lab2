@@ -1,0 +1,14 @@
+# Dəyərləri təyin edirik
+a = 2  
+b = 3  
+
+
+x_values = [x * 0.5 for x in range(0, 11)]  
+ #x ∈ [0,5], Δx = 0.5
+
+for x in x_values:
+    if x >= 1:
+        y = a + b * x
+    else:
+        y = 2 * a - 3 * b
+    print(f"x = {x:.1f}, y = {y}")
